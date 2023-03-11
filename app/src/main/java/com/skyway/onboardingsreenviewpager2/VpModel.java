@@ -1,0 +1,36 @@
+package com.skyway.onboardingsreenviewpager2;
+
+public class VpModel {
+    int image;
+    String heading,description;
+
+    public VpModel(int image, String heading, String description) {
+        this.image = image;
+        this.heading = heading;
+        this.description = description;
+    }
+
+    public int getImage() {
+        return image;
+    }
+
+    public void setImage(int image) {
+        this.image = image;
+    }
+
+    public String getHeading() {
+        return heading;
+    }
+
+    public void setHeading(String heading) {
+        this.heading = heading;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+}
